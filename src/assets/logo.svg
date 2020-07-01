@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+    <defs>
+        <filter id="prefix__a" width="125%" height="125%" x="-12.5%" y="-8.9%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0797913024 0"/>
+        </filter>
+        <circle id="prefix__b" cx="28" cy="28" r="28"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(4 2)">
+        <use fill="#000" filter="url(#prefix__a)" xlink:href="#prefix__b"/>
+        <use fill="#FFF" xlink:href="#prefix__b"/>
+        <text font-family="YesevaOne-Regular, Yeseva One" font-size="20">
+            <tspan x="4" y="35" fill="#951FFF">&lt;</tspan> <tspan x="14.1" y="35" fill="#FF2E2E">M</tspan> <tspan x="33.8" y="35" fill="#180D4E">/</tspan> <tspan x="40.8" y="35" fill="#951FFF">&gt;</tspan>
+        </text>
+    </g>
+</svg>
