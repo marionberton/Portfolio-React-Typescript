@@ -2,5 +2,8 @@
 @tailwind base;
 
 @tailwind components;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Yeseva+One&display=swap');
+
 /* purgecss end ignore */
 @tailwind utilities;
