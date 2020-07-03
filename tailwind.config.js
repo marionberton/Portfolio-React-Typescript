@@ -7,14 +7,16 @@ module.exports = {
     extend: {
       colors: {
         textBlue: '#180d4e',
-        lightgrey: '#f6f3fd',
+        lightgrey: '#FAFBFF',
         darkgrey: '#344854',
         titleMauve: '#951fff',
         parablack: '#303030',
         bgOrange: '#ff8268',
+        pinkem: '#ff1f9d',
       },
       fontFamily: {
-        title: ["'Baloo Paaji 2'"],
+        title: ["'Yeseva one'"],
+        paragraph: ["'Roboto'"],
       },
     },
   },

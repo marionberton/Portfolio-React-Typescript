@@ -5,5 +5,15 @@ exports[`<Root /> renders the component 1`] = `
   className="App"
 >
   <Component />
+  <main
+    className="py-4 px-8 h-screen bg-lightgrey"
+    style={
+      Object {
+        "marginLeft": "25%",
+      }
+    }
+  >
+    <Component />
+  </main>
 </div>
 `;
