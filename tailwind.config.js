@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       colors: {
         textBlue: '#180d4e',
-        lightgrey: '#f6f3fd',
+        lightgrey: '#FAFBFF',
         darkgrey: '#344854',
         titleMauve: '#951fff',
         parablack: '#303030',

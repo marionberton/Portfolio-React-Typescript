@@ -12,7 +12,10 @@ function App() {
   return (
     <div className="App">
       <Sidebar />
-      <main style={{ marginLeft: '25%' }} className="py-4 px-8">
+      <main
+        style={{ marginLeft: '25%' }}
+        className="py-4 px-8 h-screen bg-lightgrey"
+      >
         <Main />
       </main>
     </div>

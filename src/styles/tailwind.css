@@ -2,6 +2,16 @@
 @tailwind base;
 
 @tailwind components;
+.modal {
+  z-index: 100;
+  position: fixed;
+  top: 11vh;
+  left: 30%;
+  width: 65%;
+}
+/* body {
+  background-color: '#FAFBFF';
+} */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Yeseva+One&display=swap');
 

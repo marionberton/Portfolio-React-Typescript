@@ -1,0 +1,226 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Main /> renders the component 1`] = `
+Array [
+  <section
+    class="pb-6"
+  >
+    <div
+      class=""
+    >
+      <h1
+        class="text-textBlue font-paragraph text-2xl font-bold mt-4"
+      >
+        Welcome to my portfolio.
+      </h1>
+      <p
+        class="text-textBlue font-paragraph text-base mt-4 w-2/3 leading-relaxed"
+      >
+        I am a developer with the focus on building websites with
+        <span
+          class="text-pinkem font-extraboldfont-bold"
+        >
+           React
+        </span>
+        . I am currently based in Brighton, spending most of my days on learned the basics of several modern languages and tools.
+      </p>
+    </div>
+  </section>,
+  <section
+    class="pb-6"
+  >
+    <div
+      class=""
+    >
+      <h1
+        class="text-titleMauve font-title text-3xl my-4"
+      >
+        Work
+      </h1>
+      <div
+        class="flex flex-row justify-between"
+      >
+        <div
+          class="rounded-lg shadow bg-white overflow-hidden w-1/4 cursor-pointer"
+        >
+          <div
+            role="button"
+            tabindex="0"
+          >
+            <div>
+              <img
+                alt=" "
+                class="w-2/3 h-auto"
+                src="hamiPreview.png"
+              />
+            </div>
+            <div
+              class="p-6"
+            >
+              <h1
+                class="text-3xl font-title text-textBlue my-4"
+              >
+                Hamisea
+              </h1>
+              <p
+                class="text-lg text-textBlue font-paragraph"
+              >
+                landing page
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="rounded-lg shadow bg-white overflow-hidden w-1/4 cursor-pointer"
+        >
+          <div
+            role="button"
+            tabindex="0"
+          >
+            <div>
+              <img
+                alt=" "
+                class="w-2/3 h-auto"
+                src="musicPreview.png"
+              />
+            </div>
+            <div
+              class="p-6"
+            >
+              <h1
+                class="text-3xl font-title text-textBlue my-4"
+              >
+                Apalaa
+              </h1>
+              <p
+                class="text-lg text-textBlue font-paragraph"
+              >
+                 music discovery
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="rounded-lg shadow bg-white overflow-hidden w-1/4 cursor-pointer"
+        >
+          <div
+            role="button"
+            tabindex="0"
+          >
+            <div>
+              <img
+                alt=" "
+                class="w-2/3 h-auto"
+                src="uxPreview.png"
+              />
+            </div>
+            <div
+              class="p-6"
+            >
+              <h1
+                class="text-3xl font-title text-textBlue my-4"
+              >
+                uxAnalytic
+              </h1>
+              <p
+                class="text-lg text-textBlue font-paragraph"
+              >
+                SaaS ux analysis
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>,
+  <section
+    class=""
+  >
+    <div
+      class=""
+    >
+      <h1
+        class="text-titleMauve font-title text-3xl my-4"
+      >
+        Skills
+      </h1>
+      <div
+        class="flex flex-wrap"
+      >
+        <div
+          class="mr-8 py-2"
+        >
+          <img
+            alt="css"
+            src="css.svg"
+            style="height: 35px; width: auto;"
+          />
+        </div>
+        <div
+          class="mr-8 py-2"
+        >
+          <img
+            alt="figma"
+            src="figma.svg"
+            style="height: 35px; width: auto;"
+          />
+        </div>
+        <div
+          class="mr-8 py-2"
+        >
+          <img
+            alt="github"
+            src="github.svg"
+            style="height: 35px; width: auto;"
+          />
+        </div>
+        <div
+          class="mr-8 py-2"
+        >
+          <img
+            alt="javascript"
+            src="javascript.svg"
+            style="height: 35px; width: auto;"
+          />
+        </div>
+        <div
+          class="mr-8 py-2"
+        >
+          <img
+            alt="nodejs"
+            src="nodejs.svg"
+            style="height: 35px; width: auto;"
+          />
+        </div>
+        <div
+          class="mr-8 py-2"
+        >
+          <img
+            alt="react"
+            src="react.svg"
+            style="height: 35px; width: auto;"
+          />
+        </div>
+        <div
+          class="mr-8 py-2"
+        >
+          <img
+            alt="tailwind"
+            src="tailwind.svg"
+            style="height: 35px; width: auto;"
+          />
+        </div>
+        <div
+          class="mr-8 py-2"
+        >
+          <img
+            alt="typescript"
+            src="typescript.svg"
+            style="height: 35px; width: auto;"
+          />
+        </div>
+      </div>
+    </div>
+  </section>,
+]
+`;

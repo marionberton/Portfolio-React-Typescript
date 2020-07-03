@@ -1,22 +1,27 @@
 import React from 'react';
+
 import { Card } from '../../shared/UIelement/Card';
 
-export interface Props {
+export interface WorkProps {
   image: string;
   alt: string;
   title: string;
   description: string;
+  onClick: (event: React.MouseEvent<HTMLElement, MouseEvent>) => void;
+  onKeyPress: (event: React.KeyboardEvent<HTMLDivElement>) => void;
 }
 
-export const ProjectItem: React.FunctionComponent<Props> = ({
+export const ProjectItem: React.FunctionComponent<WorkProps> = ({
   image,
   title,
   description,
   alt,
+  onClick,
+  onKeyPress,
 }) => {
   return (
-    <Card className="w-1/4">
-      <div>
+    <Card className="w-1/4 cursor-pointer">
+      <div onClick={onClick} onKeyPress={onKeyPress} role="button" tabIndex={0}>
         <div>
           <img src={image} alt={alt} className="w-2/3 h-auto" />
         </div>

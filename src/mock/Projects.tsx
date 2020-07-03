@@ -2,6 +2,13 @@ import hami from '../assets/hamiPreview.png';
 import music from '../assets/musicPreview.png';
 import ux from '../assets/uxPreview.png';
 
+export interface Work {
+  image: string;
+  alt: string;
+  title: string;
+  description: string;
+}
+
 export const PROJECTS = [
   {
     image: hami,
@@ -22,5 +29,3 @@ export const PROJECTS = [
     description: 'SaaS ux analysis',
   },
 ];
-
-

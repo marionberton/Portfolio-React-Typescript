@@ -6,7 +6,7 @@ exports[`<Root /> renders the component 1`] = `
 >
   <Component />
   <main
-    className="py-4 px-8"
+    className="py-4 px-8 h-screen bg-lightgrey"
     style={
       Object {
         "marginLeft": "25%",
