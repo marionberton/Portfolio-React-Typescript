@@ -9,9 +9,23 @@
   left: 30%;
   width: 65%;
 }
-/* body {
-  background-color: '#FAFBFF';
-} */
+.custom {
+  margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  .custom {
+    width: 30%;
+    margin-bottom: 0;
+  }
+
+}
+
+@media screen and (min-width: 1022px) {
+  .main {
+    margin-left: 25%;
+  }
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Yeseva+One&display=swap');
 

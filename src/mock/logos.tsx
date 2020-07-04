@@ -16,9 +16,14 @@ export const SKILLS = [
     image: figma,
     alt: 'figma',
   },
+
   {
     image: github,
     alt: 'github',
+  },
+  {
+    image: tailwind,
+    alt: 'tailwind',
   },
   {
     image: javascript,
@@ -31,10 +36,6 @@ export const SKILLS = [
   {
     image: react,
     alt: 'react',
-  },
-  {
-    image: tailwind,
-    alt: 'tailwind',
   },
   {
     image: typescript,

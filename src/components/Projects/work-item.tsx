@@ -20,7 +20,7 @@ export const ProjectItem: React.FunctionComponent<WorkProps> = ({
   onKeyPress,
 }) => {
   return (
-    <Card className="w-1/4 cursor-pointer">
+    <Card className="xl:w-1/4 custom cursor-pointer">
       <div onClick={onClick} onKeyPress={onKeyPress} role="button" tabIndex={0}>
         <div>
           <img src={image} alt={alt} className="w-2/3 h-auto" />

@@ -7,7 +7,9 @@ export const Skills = () => {
   return (
     <section className="">
       <div className="">
-        <h1 className="text-titleMauve font-title text-3xl my-4">Skills</h1>
+        <h1 className="text-titleMauve font-title text-3xl md:my-4 mb-4">
+          Skills
+        </h1>
         <div className="flex flex-wrap">
           {SKILLS.map((item) => {
             const { image, alt } = item;
