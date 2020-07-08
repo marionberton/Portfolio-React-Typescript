@@ -1,6 +1,6 @@
-import hami from '../assets/hamiPreview.png';
-import music from '../assets/musicPreview.png';
-import ux from '../assets/uxPreview.png';
+import hami from '../assets/hamiPreview-1-2.png';
+import music from '../assets/musicPreview-1-2.png';
+import ux from '../assets/uxPreview-1-2.png';
 
 export interface Work {
   image: string;
@@ -19,7 +19,7 @@ export const PROJECTS = [
   {
     image: music,
     alt: ' ',
-    title: 'Apalaa',
+    title: 'Apala',
     description: ' music discovery',
   },
   {

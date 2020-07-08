@@ -8,7 +8,7 @@ export const Footer: React.FC = () => {
         <a
           href="https://github.com/marionberton"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
           className="inline-block pr-4 py-2 my-2 mr-2"
         >
           <FontAwesomeIcon icon={['fab', 'github']} color="black" size="2x" />
@@ -16,7 +16,7 @@ export const Footer: React.FC = () => {
         <a
           href="https://www.linkedin.com/in/marion-berton-b906b5b2"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
           className="inline-block px-4 py-2 m-2"
         >
           <FontAwesomeIcon icon={['fab', 'linkedin']} color="black" size="2x" />

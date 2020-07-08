@@ -8,7 +8,7 @@ export const Skills = () => {
     <section className="">
       <div className="">
         <h1 className="text-titleMauve font-title text-3xl md:my-4 mb-4">
-          Skills
+          Skills & Tools
         </h1>
         <div className="flex flex-wrap">
           {SKILLS.map((item) => {

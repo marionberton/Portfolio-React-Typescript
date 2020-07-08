@@ -13,6 +13,7 @@ module.exports = {
         parablack: '#303030',
         bgOrange: '#ff8268',
         pinkem: '#ff1f9d',
+        linkBlue: '#3a55e1',
       },
       fontFamily: {
         title: ["'Yeseva one'"],

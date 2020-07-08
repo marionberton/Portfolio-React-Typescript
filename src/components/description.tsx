@@ -13,6 +13,8 @@ interface Props {
     challenge: string;
     website: string;
     github: string;
+    linkweb: string;
+    linkgit: string;
   };
   onClick: (event: React.MouseEvent<HTMLElement, MouseEvent>) => void;
   onKeyPress: (event: React.KeyboardEvent<HTMLDivElement>) => void;
@@ -26,10 +28,10 @@ export const Content: React.FC<Props> = ({ data, onClick, onKeyPress }) => {
       </div>
 
       <div className="flex flex-row ">
-        <div>
-          <img src={data.image} alt={data.alt} />
+        <div className="w-full self-center sm:block hidden">
+          <img src={data.image} alt={data.alt} className="w-auto h-full" />
         </div>
-        <div className="flex-col pl-8 text-textBlue">
+        <div className="flex-col sm:pl-8 text-textBlue">
           <div className="mb-6">
             <h1 className="mb-4 font-title text-xl">Product</h1>
             <p>{data.product}</p>
@@ -51,8 +53,22 @@ export const Content: React.FC<Props> = ({ data, onClick, onKeyPress }) => {
             <p>{data.challenge}</p>
           </div>
           <div>
-            <p className="inline-block mr-3"> {data.website}</p>
-            <p className="inline-block">{data.github}</p>
+            <a
+              href={data.linkweb}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block mr-3 text-linkBlue underline uppercase"
+            >
+              {data.website}
+            </a>
+            <a
+              href={data.linkgit}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block text-linkBlue underline uppercase"
+            >
+              {data.github}
+            </a>
           </div>
         </div>
       </div>

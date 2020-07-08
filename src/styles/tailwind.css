@@ -2,28 +2,40 @@
 @tailwind base;
 
 @tailwind components;
-.modal {
-  z-index: 100;
-  position: fixed;
-  top: 11vh;
-  left: 30%;
-  width: 65%;
-}
+
 .custom {
   margin-bottom: 2rem;
 }
+
+
 
 @media only screen and (max-width: 1024px) and (min-width: 768px) {
   .custom {
     width: 30%;
     margin-bottom: 0;
   }
-
 }
 
 @media screen and (min-width: 1022px) {
   .main {
     margin-left: 25%;
+  }
+  .modal {
+    z-index: 100;
+    position: fixed;
+    top: 11vh;
+    left: 30%;
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 1022px) and (min-width: 318px) {
+  .modal {
+    z-index: 100;
+    position: fixed;
+    top: 11vh;
+    left: 5%;
+    width: 90%;
   }
 }
 
