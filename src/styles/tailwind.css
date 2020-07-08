@@ -2,16 +2,40 @@
 @tailwind base;
 
 @tailwind components;
-.modal {
-  z-index: 100;
-  position: fixed;
-  top: 11vh;
-  left: 30%;
-  width: 65%;
+
+.custom {
+  margin-bottom: 2rem;
 }
-/* body {
-  background-color: '#FAFBFF';
-} */
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  .custom {
+    width: 30%;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1022px) {
+  .main {
+    margin-left: 25%;
+  }
+  .modal {
+    z-index: 100;
+    position: fixed;
+    top: 11vh;
+    left: 30%;
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 1022px) and (min-width: 318px) {
+  .modal {
+    z-index: 100;
+    position: fixed;
+    top: 11vh;
+    left: 5%;
+    width: 90%;
+  }
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Yeseva+One&display=swap');
 

@@ -1,6 +1,6 @@
-import hami from '../assets/hamiPreview.png';
-import music from '../assets/musicPreview.png';
-import ux from '../assets/uxPreview.png';
+import hami from '../assets/hami-landing-page-final-2.png';
+import music from '../assets/apala-page-final-2.png';
+import ux from '../assets/ux-analytic-final-2.png';
 
 //   interface  Work  {
 //   title: string;
@@ -20,48 +20,57 @@ export const MODAL = [
     image: hami,
     alt: 'hami',
     product:
-      '1Music disover platform for Spotify users. Thats help you disocvery music by country based on spotify catalouges.',
+      'Hami helps sailers find a harbour with mooring spaces close to them. I have been working with a web developer, to build the web app.',
     step1:
-      '1Sketching out IA and researching the best API for the project (spotify, Deezer etc).',
+      'Sketching and planning the app, list of harbors, API endpoints and what user interface.',
     step2:
-      '1The kick of the project included me using xy and testing it with Spotify premium users inorder to refine the XXXX',
+      'Built and designed the landing page. In this project I learned how to use typescript, and for the web app I picked up the basics of node.js, express, and MongoDB to create a backend which are still in process. ',
 
     challenge:
-      '1Fetching the right music API, that can be inbended to the discovery map. Another challange was playwidget ',
+      'The process of learning always comes with challenges, Typescript was sometimes time consuming, spending a lot of hours searching for the erros and types. ',
 
-    website: 'www.hamisea.com',
+    website: 'website',
+    linkweb: 'https://hamisea.com/',
     github: 'github1',
+    linkgit: 'https://github.com/marionberton/music-project',
   },
   {
-    title: 'Apalaa',
+    title: 'Apala',
     image: music,
     alt: 'music',
     product:
-      '1Music disover platform for Spotify users. Thats help you disocvery music by country based on spotify catalouges.',
+      'Music disover platform for Spotify users. It helps you discover music by clicking on a country based on spotify catalogues.',
     step1:
-      '1Sketching out IA and researching the best API for the project (spotify, Deezer etc).',
+      'Sketching out IA and researching the best API for the project (spotify, Soundcloud etc).',
     step2:
-      '1The kick of the project included me using xy and testing it with Spotify premium users inorder to refine the XXXX',
+      'The kick of the project included me using React Hooks. Starting off by finding the right vector map to connect with the search, and then look for the best API to connect with the map. The design is still in process as I am not totally satisfied with the map',
 
     challenge:
-      '1Fetching the right music API, that can be inbended to the discovery map. Another challange was playwidget ',
-    website: 'www.apala.com',
-    github: 'github2',
+      'Fetching the right music API, that can work with the search by country. Also, understanding the logic behind the useState, useEffect whith the API.',
+
+    website: 'website',
+    linkweb: 'http://localhost:3000/',
+    github: 'github',
+    linkgit: 'https://github.com/marionberton/music-project',
   },
   {
     title: 'uxAnalytic',
     image: ux,
     alt: 'ux',
     product:
-      '1Music disover platform for Spotify users. Thats help you disocvery music by country based on spotify catalouges.',
-    step1:
-      '1Sketching out IA and researching the best API for the project (spotify, Deezer etc).',
+      'UX Analaytic helps designers create an excellent user experience, by analyzing design patterns of your direct competitors.',
+    step1: 'Worked closely with the client for the visual of the demo project.',
     step2:
-      '1The kick of the project included me using xy and testing it with Spotify premium users inorder to refine the XXXX',
+      'This project was also built using typescript which was getting better.',
 
     challenge:
-      '1Fetching the right music API, that can be inbended to the discovery map. Another challange was playwidget ',
+      'Making the table dynamic, and the research around the OAuth using firebase took most of the time in developing the demo.',
+
     website: 'www.uxanalytic.com',
+    linkweb: 'http://localhost:3000/',
     github: 'github3',
+    linkgit: 'https://github.com/marionberton/music-project',
   },
 ];
+
+// 1The kick of the project included me using xy and testing it with Spotify premium users inorder to refine the XXXX

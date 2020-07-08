@@ -14,15 +14,15 @@ Array [
         Welcome to my portfolio.
       </h1>
       <p
-        class="text-textBlue font-paragraph text-base mt-4 w-2/3 leading-relaxed"
+        class="text-textBlue font-paragraph text-base mt-4 md:w-2/3 leading-relaxed"
       >
-        I am a developer with the focus on building websites with
+        I’m an ambitious individual who’s looking for her first
         <span
           class="text-pinkem font-extraboldfont-bold"
         >
-           React
+           React 
         </span>
-        . I am currently based in Brighton, spending most of my days on learned the basics of several modern languages and tools.
+        developer role. I am currently based in Brighton, spending most of my days learning the basics of several modern languages, tools and attending Codebar Brighton.
       </p>
     </div>
   </section>,
@@ -38,10 +38,10 @@ Array [
         Work
       </h1>
       <div
-        class="flex flex-row justify-between"
+        class="flex md:flex-row flex-col justify-between"
       >
         <div
-          class="rounded-lg shadow bg-white overflow-hidden w-1/4 cursor-pointer"
+          class="rounded-lg shadow-md bg-white overflow-hidden xl:w-1/4 custom cursor-pointer"
         >
           <div
             role="button"
@@ -51,7 +51,7 @@ Array [
               <img
                 alt=" "
                 class="w-2/3 h-auto"
-                src="hamiPreview.png"
+                src="hamiPreview-1-2.png"
               />
             </div>
             <div
@@ -71,7 +71,7 @@ Array [
           </div>
         </div>
         <div
-          class="rounded-lg shadow bg-white overflow-hidden w-1/4 cursor-pointer"
+          class="rounded-lg shadow-md bg-white overflow-hidden xl:w-1/4 custom cursor-pointer"
         >
           <div
             role="button"
@@ -81,7 +81,7 @@ Array [
               <img
                 alt=" "
                 class="w-2/3 h-auto"
-                src="musicPreview.png"
+                src="musicPreview-1-2.png"
               />
             </div>
             <div
@@ -90,7 +90,7 @@ Array [
               <h1
                 class="text-3xl font-title text-textBlue my-4"
               >
-                Apalaa
+                Apala
               </h1>
               <p
                 class="text-lg text-textBlue font-paragraph"
@@ -101,7 +101,7 @@ Array [
           </div>
         </div>
         <div
-          class="rounded-lg shadow bg-white overflow-hidden w-1/4 cursor-pointer"
+          class="rounded-lg shadow-md bg-white overflow-hidden xl:w-1/4 custom cursor-pointer"
         >
           <div
             role="button"
@@ -111,7 +111,7 @@ Array [
               <img
                 alt=" "
                 class="w-2/3 h-auto"
-                src="uxPreview.png"
+                src="uxPreview-1-2.png"
               />
             </div>
             <div
@@ -140,9 +140,9 @@ Array [
       class=""
     >
       <h1
-        class="text-titleMauve font-title text-3xl my-4"
+        class="text-titleMauve font-title text-3xl md:my-4 mb-4"
       >
-        Skills
+        Skills & Tools
       </h1>
       <div
         class="flex flex-wrap"
@@ -178,6 +178,15 @@ Array [
           class="mr-8 py-2"
         >
           <img
+            alt="tailwind"
+            src="tailwind.svg"
+            style="height: 35px; width: auto;"
+          />
+        </div>
+        <div
+          class="mr-8 py-2"
+        >
+          <img
             alt="javascript"
             src="javascript.svg"
             style="height: 35px; width: auto;"
@@ -198,15 +207,6 @@ Array [
           <img
             alt="react"
             src="react.svg"
-            style="height: 35px; width: auto;"
-          />
-        </div>
-        <div
-          class="mr-8 py-2"
-        >
-          <img
-            alt="tailwind"
-            src="tailwind.svg"
             style="height: 35px; width: auto;"
           />
         </div>

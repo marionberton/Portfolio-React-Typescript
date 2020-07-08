@@ -38,7 +38,7 @@ export const Projects = () => {
             />
           ) : null}
         </Modal>
-        <div className="flex flex-row justify-between">
+        <div className="flex md:flex-row flex-col justify-between">
           {PROJECTS.map((item) => {
             const { image, title, description, alt } = item;
             return (
