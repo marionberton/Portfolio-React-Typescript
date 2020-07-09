@@ -18,4 +18,3 @@ export const Intro = () => {
     </section>
   );
 };
-// I’m an ambitious individual who’s looking for her first Junior React Developer role. I left my career in business management in April 2019 to focus all my time on learning how to code, and since then, I’ve attended Codebar every week, completed a Web Development boot camp and learned the basics of several modern languages and tools."

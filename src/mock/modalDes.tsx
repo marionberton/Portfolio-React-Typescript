@@ -2,18 +2,6 @@ import hami from '../assets/hami-landing-page-final-2.png';
 import music from '../assets/apala-page-final-2.png';
 import ux from '../assets/ux-analytic-final-2.png';
 
-//   interface  Work  {
-//   title: string;
-//   image: string;
-//   alt: string;
-//   product: string;
-//   step1: string;
-//   step2: string;
-//   challenge: string;
-//   website: string;
-//   github: string;
-// };
-
 export const MODAL = [
   {
     title: 'Hamisea',
@@ -31,8 +19,8 @@ export const MODAL = [
 
     website: 'website',
     linkweb: 'https://hamisea.com/',
-    github: 'github1',
-    linkgit: 'https://github.com/marionberton/music-project',
+    github: '',
+    linkgit: '',
   },
   {
     title: 'Apala',
@@ -60,17 +48,13 @@ export const MODAL = [
     product:
       'UX Analaytic helps designers create an excellent user experience, by analyzing design patterns of your direct competitors.',
     step1: 'Worked closely with the client for the visual of the demo project.',
-    step2:
-      'This project was also built using typescript which was getting better.',
+    step2: 'This project was built with React Hooks, Tailwind and Typescript.',
 
     challenge:
       'Making the table dynamic, and the research around the OAuth using firebase took most of the time in developing the demo.',
-
-    website: 'www.uxanalytic.com',
+    website: 'website',
     linkweb: 'http://localhost:3000/',
-    github: 'github3',
-    linkgit: 'https://github.com/marionberton/music-project',
+    github: '',
+    linkgit: '',
   },
 ];
-
-// 1The kick of the project included me using xy and testing it with Spotify premium users inorder to refine the XXXX
