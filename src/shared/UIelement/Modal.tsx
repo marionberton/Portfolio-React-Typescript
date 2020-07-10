@@ -4,6 +4,7 @@ import { CSSTransition } from 'react-transition-group';
 
 import Backdrop from './backdrop';
 import { Card } from './Card';
+import './Modal.css';
 
 interface ModalOverlayProps {
   className?: string;
@@ -60,3 +61,5 @@ const Modal: React.FunctionComponent<ModalProps & ModalOverlayProps> = ({
 };
 
 export default Modal;
+
+// -translate-y-40 opacity-0

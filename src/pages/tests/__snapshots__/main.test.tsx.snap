@@ -41,9 +41,10 @@ Array [
         class="flex md:flex-row flex-col justify-between"
       >
         <div
-          class="rounded-lg shadow-md bg-white overflow-hidden xl:w-1/4 custom cursor-pointer"
+          class="rounded-lg shadow-md bg-white xl:w-1/4 custom cursor-pointer"
         >
           <div
+            class=" outline-none"
             role="button"
             tabindex="0"
           >
@@ -71,9 +72,10 @@ Array [
           </div>
         </div>
         <div
-          class="rounded-lg shadow-md bg-white overflow-hidden xl:w-1/4 custom cursor-pointer"
+          class="rounded-lg shadow-md bg-white xl:w-1/4 custom cursor-pointer"
         >
           <div
+            class=" outline-none"
             role="button"
             tabindex="0"
           >
@@ -101,9 +103,10 @@ Array [
           </div>
         </div>
         <div
-          class="rounded-lg shadow-md bg-white overflow-hidden xl:w-1/4 custom cursor-pointer"
+          class="rounded-lg shadow-md bg-white xl:w-1/4 custom cursor-pointer"
         >
           <div
+            class=" outline-none"
             role="button"
             tabindex="0"
           >

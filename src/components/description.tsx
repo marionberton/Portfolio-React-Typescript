@@ -23,15 +23,26 @@ interface Props {
 export const Content: React.FC<Props> = ({ data, onClick, onKeyPress }) => {
   return (
     <>
-      <div onClick={onClick} onKeyPress={onKeyPress} role="button" tabIndex={0}>
-        <img className="ml-auto cursor-pointer" src={close} alt="close" />
-      </div>
+      {/* <img
+        onClick={onClick}
+        className="ml-auto cursor-pointer outline-none"
+        src={close}
+        alt="close"
+      /> */}
+      <button
+        onClick={onClick}
+        className="ml-auto cursor-pointer outline-none relative"
+        style={{ left: '95%' }}
+        type="button"
+      >
+        <img src={close} alt="close" className="ml-auto" />
+      </button>
 
-      <div className="flex flex-row ">
-        <div className="w-full self-center sm:block hidden">
-          <img src={data.image} alt={data.alt} className="w-auto h-full" />
+      <div className="flex flex-row">
+        <div className="self-center sm:block hidden">
+          <img src={data.image} alt={data.alt} className="" />
         </div>
-        <div className="flex-col sm:pl-8 text-textBlue">
+        <div className="flex-col sm:pl-8 text-textBlue ">
           <div className="mb-6">
             <h1 className="mb-4 font-title text-xl">Product</h1>
             <p>{data.product}</p>

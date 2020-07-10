@@ -7,10 +7,7 @@ interface CardProps {
 }
 
 export const Card: React.FC<CardProps> = ({ className, style, children }) => (
-  <div
-    className={`rounded-lg shadow-md bg-white overflow-hidden ${className}`}
-    style={style}
-  >
+  <div className={`rounded-lg shadow-md bg-white ${className}`} style={style}>
     {children}
   </div>
 );
