@@ -9,9 +9,9 @@
 
 .modal {
   z-index: 100;
-  position: absolute;
-  top: 300px;
+  position: fixed;
   left: 5%;
+  top: 200px;
   right: 5%;
 }
 
@@ -38,7 +38,7 @@
 @media (min-width: 768px) and (max-width: 1022px) {
   .modal {
     z-index: 100;
-    position: absolute;
+    position: fixed;
     top: 50vh;
     left: 5%;
     right: 5%;
@@ -48,8 +48,8 @@
 @media (min-width: 318px) and (max-width: 767px) {
   .modal {
     z-index: 100;
-    position: absolute;
-    top: 300px;
+    position: fixed;
+    top: 200px;
     left: 5%;
     right: 5%;
   }
