@@ -11,7 +11,6 @@
   z-index: 100;
   position: fixed;
   left: 5%;
-  top: 200px;
   right: 5%;
 }
 
@@ -39,7 +38,7 @@
   .modal {
     z-index: 100;
     position: fixed;
-    top: 50vh;
+    top: 11vh;
     left: 5%;
     right: 5%;
   }
@@ -49,7 +48,6 @@
   .modal {
     z-index: 100;
     position: fixed;
-    top: 200px;
     left: 5%;
     right: 5%;
   }
