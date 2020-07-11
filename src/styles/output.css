@@ -664,6 +664,8 @@ video {
     top: 11vh;
     left: 5%;
     right: 5%;
+    overflow: scroll;
+    height: 100%;
   }
 }
 
@@ -671,6 +673,8 @@ video {
   .modal {
     z-index: 100;
     position: fixed;
+    overflow-y: scroll;
+    height: 100%;
     left: 5%;
     right: 5%;
   }
