@@ -23,12 +23,6 @@ interface Props {
 export const Content: React.FC<Props> = ({ data, onClick, onKeyPress }) => {
   return (
     <>
-      {/* <img
-        onClick={onClick}
-        className="ml-auto cursor-pointer outline-none"
-        src={close}
-        alt="close"
-      /> */}
       <button
         onClick={onClick}
         className="ml-auto cursor-pointer outline-none relative"

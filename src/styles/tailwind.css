@@ -10,7 +10,7 @@
 .modal {
   z-index: 100;
   position: absolute;
-  top: 5vh;
+  top: 170vh;
   left: 5%;
   right: 5%;
 }
@@ -35,11 +35,21 @@
   }
 }
 
-@media (min-width: 318px) and (max-width: 1022px) {
+@media (min-width: 768px) and (max-width: 1022px) {
   .modal {
     z-index: 100;
     position: absolute;
-    top: 5vh;
+    top: 50vh;
+    left: 5%;
+    right: 5%;
+  }
+}
+
+@media (min-width: 318px) and (max-width: 767px) {
+  .modal {
+    z-index: 100;
+    position: absolute;
+    top: 170vh;
     left: 5%;
     right: 5%;
   }
