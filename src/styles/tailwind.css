@@ -49,7 +49,7 @@
   .modal {
     z-index: 100;
     position: absolute;
-    top: 170vh;
+    top: 700px;
     left: 5%;
     right: 5%;
   }
