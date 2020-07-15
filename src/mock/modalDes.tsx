@@ -1,6 +1,6 @@
 import hami from '../assets/hami-landing-page-final-2.png';
 import music from '../assets/apala-page-final-2.png';
-import ux from '../assets/ux-analytic-final-2.png';
+import ux from '../assets/Uxanalytic-landing.png';
 
 export const MODAL = [
   {
@@ -53,7 +53,7 @@ export const MODAL = [
     challenge:
       'Making the table dynamic, and the research around the OAuth using firebase took most of the time in developing the demo.',
     website: 'website',
-    linkweb: 'http://localhost:3000/',
+    linkweb: 'https://www.uxanalytic.com/',
     github: '',
     linkgit: '',
   },
