@@ -36,8 +36,8 @@ export const MODAL = [
     challenge:
       'Fetching the right music API, that can work with the search by country. Also, understanding the logic behind the useState, useEffect whith the API.',
 
-    website: 'website',
-    linkweb: 'http://localhost:3000/',
+    website: '',
+    linkweb: '',
     github: 'github',
     linkgit: 'https://github.com/marionberton/music-project',
   },
