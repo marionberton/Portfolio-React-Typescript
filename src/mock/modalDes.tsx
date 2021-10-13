@@ -8,10 +8,10 @@ export const MODAL = [
     image: mindiply,
     alt: "mindiply",
     product:
-      "Mindiply is a UK based startup that is developing a new work management saas tool",
+      "Mindiply is a UK based startup that is developing a new work management saas tool.",
     step1: "September 2020 - July 2021",
     step2:
-      "Assisted the founder and Chief developer in building the frontend. My focus was on creating the graphs, filtering and sorting from the timeline Bell, debbugging, and testing.",
+      "Assisted the founder and Chief developer in building the frontend. My focus was on creating the graphs, filtering and sorting from the timeline Bell, debbugging, and testing. Worked primarly with React, Typescript, Tailwind css, and jest",
     challenge: "",
     website: "website",
     linkweb: "https://mindiply.com/",
