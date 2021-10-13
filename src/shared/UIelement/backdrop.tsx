@@ -1,5 +1,5 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
 
 interface BackdropProps {
   onClick: (event: React.MouseEvent<HTMLElement, MouseEvent>) => void;
@@ -19,7 +19,7 @@ const Backdrop: React.FunctionComponent<BackdropProps> = ({
       aria-label="close backdrop"
       tabIndex={0}
     />,
-    document.getElementById('backdrop-hook') as Element
+    document.getElementById("backdrop-hook") as Element
   );
 };
 

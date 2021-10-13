@@ -1,9 +1,9 @@
-import * as React from 'react';
-import { render } from 'react-dom';
-import TagManager from 'react-gtm-module';
+import * as React from "react";
+import { render } from "react-dom";
+import TagManager from "react-gtm-module";
 
-import App from './App';
-import { env } from './env';
+import App from "./App";
+import { env } from "./env";
 
 const tagManagerArgs = {
   gtmId: env.gtm,
@@ -11,5 +11,5 @@ const tagManagerArgs = {
 
 TagManager.initialize(tagManagerArgs);
 
-const rootElement = document.getElementById('root');
+const rootElement = document.getElementById("root");
 render(<App />, rootElement);

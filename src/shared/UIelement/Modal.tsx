@@ -1,11 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
 
-import { CSSTransition } from 'react-transition-group';
+import { CSSTransition } from "react-transition-group";
 
-import Backdrop from './backdrop';
-import { Card } from './Card';
-import './Modal.css';
+import Backdrop from "./backdrop";
+import { Card } from "./Card";
+import "./Modal.css";
 
 interface ModalOverlayProps {
   className?: string;
@@ -34,7 +34,7 @@ const ModalOverlay: React.FunctionComponent<ModalOverlayProps> = ({
       <div className={`m-8 ${contentClass}`}>{children}</div>
     </Card>
   );
-  const elm = document.getElementById('modal-hook') as HTMLElement;
+  const elm = document.getElementById("modal-hook") as HTMLElement;
   return ReactDOM.createPortal(content, elm);
 };
 
@@ -54,7 +54,7 @@ const Modal: React.FunctionComponent<ModalProps & ModalOverlayProps> = ({
         mountOnEnter
         unmountOnExit
         timeout={200}
-        classNames='modal'
+        classNames="modal"
       >
         <ModalOverlay {...{ children }} {...{ header }} />
       </CSSTransition>

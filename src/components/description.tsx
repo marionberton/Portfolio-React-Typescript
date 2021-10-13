@@ -58,9 +58,7 @@ export const Content = ({ data, onClick, onKeyPress }: Props) => {
           </div>
           <div className="mb-6">
             <h1 className="mb-4 font-title text-3lg">
-              {data.title === "Mindiply"
-                ? ""
-                : "Challenge"}
+              {data.title === "Mindiply" ? "" : "Challenge"}
             </h1>
             <p>{data.challenge}</p>
           </div>
