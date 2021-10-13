@@ -1,13 +1,13 @@
-import React from 'react';
+import React from "react";
 
-import { SkillItem } from './skill-item';
-import { SKILLS } from '../../mock/logos';
+import { SkillItem } from "./skill-item";
+import { SKILLS } from "../../mock/logos";
 
 export const Skills = () => {
   return (
     <section className="">
       <div className="">
-        <h1 className="text-titleMauve font-title text-3xl md:my-4 mb-4">
+        <h1 className="text-titleMauve font-title text-3xl md:my-4 lg:mt-0 lg:mb-10">
           Skills & Tools
         </h1>
         <div className="flex flex-wrap">

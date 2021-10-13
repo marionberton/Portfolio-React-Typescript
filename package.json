@@ -3,40 +3,40 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.29",
-    "@fortawesome/free-brands-svg-icons": "^5.13.1",
-    "@fortawesome/free-solid-svg-icons": "^5.13.1",
-    "@fortawesome/react-fontawesome": "^0.1.11",
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
-    "@types/jest": "^24.9.1",
-    "@types/node": "^12.12.47",
-    "@types/react": "^16.9.41",
-    "@types/react-dom": "^16.9.8",
-    "@types/react-gtm-module": "^2.0.0",
-    "@types/react-transition-group": "^4.4.0",
-    "dotenv": "^8.2.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-gtm-module": "^2.0.10",
-    "react-scripts": "3.4.1",
-    "react-transition-group": "^4.4.1",
-    "tailwindcss": "^1.4.6",
-    "typescript": "^3.7.5"
+    "@craco/craco": "^6.3.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "@types/jest": "^26.0.24",
+    "@types/node": "^12.20.27",
+    "@types/react": "^17.0.27",
+    "@types/react-dom": "^17.0.9",
+    "@types/react-gtm-module": "^2.0.1",
+    "@types/react-transition-group": "^4.4.3",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.1.2",
+    "prettier": "^2.4.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-gtm-module": "^2.0.11",
+    "react-scripts": "4.0.3",
+    "react-transition-group": "^4.4.2",
+    "typescript": "^4.4.3",
+    "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "test:coverage": "react-scripts test --coverage --runInBand --watchAll=false",
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
     "eject": "react-scripts eject",
-    "lint": "eslint --ext .js,.jsx,.ts,.tsx src --color",
     "format": "prettier --write 'src/**/*.{ts,tsx,scss,css,json}'",
-    "isready": "npm run format && npm run lint && npm run test:coverage && npm run build"
+    "isready": "npm run format && npm run build"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "browserslist": {
     "production": [
@@ -51,77 +51,18 @@
     ]
   },
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^2.3.0",
-    "@types/enzyme": "3.10.5",
-    "@types/enzyme-adapter-react-16": "1.0.6",
-    "enzyme": "3.11.0",
-    "enzyme-adapter-react-16": "1.15.2",
-    "enzyme-to-json": "3.5.0",
-    "eslint-config-airbnb": "18.2.0",
-    "eslint-config-airbnb-typescript": "8.0.2",
-    "eslint-config-prettier": "6.11.0",
-    "eslint-config-react-app": "5.2.1",
-    "eslint-import-resolver-typescript": "2.0.0",
-    "eslint-loader": "4.0.2",
-    "eslint-plugin-flowtype": "5.2.0",
-    "eslint-plugin-import": "2.22.0",
-    "eslint-plugin-jsx-a11y": "6.3.1",
-    "eslint-plugin-prettier": "3.1.4",
-    "eslint-plugin-react": "7.20.3",
-    "eslint-plugin-react-hooks": "4.0.5",
-    "husky": "^4.2.5",
-    "jest-fetch-mock": "3.0.3",
-    "prettier": "2.0.5",
-    "prettier-eslint": "11.0.0",
-    "prettier-eslint-cli": "5.0.0",
-    "ts-jest": "26.1.1"
-  },
-  "jest": {
-    "collectCoverageFrom": [
-      "src/**/*.{js,jsx,ts,tsx}",
-      "!src/**/*.d.ts",
-      "!src/index.tsx",
-      "!src/serviceWorker.ts"
-    ],
-    "coveragePathIgnorePatterns": [
-      "./src/*/*.types.{ts,tsx}",
-      "./src/index.tsx",
-      "./src/serviceWorker.ts"
-    ],
-    "coverageReporters": [
-      "json",
-      "lcov",
-      "text-summary",
-      "clover"
-    ],
-    "coverageThreshold": {
-      "global": {
-        "statements": 80,
-        "branches": 50,
-        "lines": 80,
-        "functions": 50
-      }
-    },
-    "snapshotSerializers": [
-      "enzyme-to-json/serializer"
-    ],
-    "transform": {
-      "^.+\\.(js|jsx|ts|tsx)$": "<rootDir>/node_modules/ts-jest"
-    },
-    "transformIgnorePatterns": [
-      "[/\\\\]node_modules[/\\\\].+\\.(js|jsx|ts|tsx)$",
-      "^.+\\.module\\.(css|sass|scss)$"
-    ],
-    "moduleNameMapper": {
-      "^react-native$": "react-native-web",
-      "^.+\\.module\\.(css|sass|scss)$": "identity-obj-proxy",
-      "src/(.*)$": "<rootDir>/src/$1"
-    }
+    "autoprefixer": "^9.8.7",
+    "postcss": "^7.0.38",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.16"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run format && npm run lint",
-      "pre-push": "npm run format && npm run lint && npm run test:coverage && npm run build"
+      "pre-commit": "lint-staged"
     }
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+      "prettier --write"
+    ]
   }
 }

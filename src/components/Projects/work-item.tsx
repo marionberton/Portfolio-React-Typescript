@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-import { Card } from '../../shared/UIelement/Card';
+import { Card } from "../../shared/UIelement/Card";
 
 export interface WorkProps {
   image: string;
@@ -19,8 +19,9 @@ export const ProjectItem: React.FunctionComponent<WorkProps> = ({
   onClick,
   onKeyPress,
 }) => {
+  //xl:w-1/4
   return (
-    <Card className="xl:w-1/4 custom cursor-pointer">
+    <Card className="lg:mb-0 mb-15 cursor-pointer sm:w-p360 md:w-p212 lg:w-100 xl:w-p245">
       <div
         className=" outline-none"
         onClick={onClick}
@@ -31,9 +32,13 @@ export const ProjectItem: React.FunctionComponent<WorkProps> = ({
         <div>
           <img src={image} alt={alt} className="w-2/3 h-auto" />
         </div>
-        <div className="p-6">
-          <h1 className="text-3xl font-title text-textBlue my-4">{title}</h1>
-          <p className="text-lg text-textBlue font-paragraph">{description}</p>
+        <div className="lg:p-11 p-16">
+          <h1 className="xl:text-3xl text-xl font-title text-textBlue my-4">
+            {title}
+          </h1>
+          <p className="xl:text-lg text-base text-textBlue font-paragraph">
+            {description}
+          </p>
         </div>
       </div>
     </Card>

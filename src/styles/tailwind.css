@@ -3,9 +3,25 @@
 
 @tailwind components;
 
-.custom {
-  margin-bottom: 2rem;
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(48, 48, 48, 0.75);
 }
+.Modal {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  right: 40px;
+  bottom: 40px;
+}
+
+/* .custom {
+  margin-bottom: 2rem;
+} */
 
 .modal {
   z-index: 100;
@@ -15,16 +31,24 @@
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 768px) {
-  .custom {
+  /* .custom {
     width: 30%;
     margin-bottom: 0;
+  } */
+}
+
+@media (min-width: 1281px) {
+  .main {
+    margin-left: 390px;
+  }
+}
+@media only screen and (max-width: 1280px) and (min-width: 1023px) {
+  .main {
+    margin-left: 342px;
   }
 }
 
 @media (min-width: 1023px) {
-  .main {
-    margin-left: 25%;
-  }
   .modal {
     z-index: 100;
     position: fixed;
@@ -57,7 +81,7 @@
   }
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Yeseva+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Yeseva+One&display=swap");
 
 /* purgecss end ignore */
 @tailwind utilities;

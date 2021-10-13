@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 interface CardProps {
   className?: string;
@@ -7,7 +7,10 @@ interface CardProps {
 }
 
 export const Card: React.FC<CardProps> = ({ className, style, children }) => (
-  <div className={`rounded-lg shadow-md bg-white ${className}`} style={style}>
+  <div
+    className={`shadow-md bg-white ${className} rounded-custom`}
+    style={style}
+  >
     {children}
   </div>
 );

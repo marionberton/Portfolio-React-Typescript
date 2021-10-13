@@ -1,6 +1,6 @@
-import hami from '../assets/hamiPreview-1-2.png';
-import music from '../assets/musicPreview-1-2.png';
-import ux from '../assets/uxPreview-1-2.png';
+import mindiply from "../assets/mindiply-preview-updated-21.png";
+import music from "../assets/musicPreview-1-2.png";
+import ux from "../assets/UXA.png";
 
 export interface Work {
   image: string;
@@ -11,21 +11,21 @@ export interface Work {
 
 export const PROJECTS = [
   {
-    image: hami,
-    alt: ' ',
-    title: 'Hamisea',
-    description: 'landing page',
+    image: mindiply,
+    alt: " ",
+    title: "Mindiply",
+    description: "SaaS work management",
   },
   {
     image: music,
-    alt: ' ',
-    title: 'Apala',
-    description: ' music discovery',
+    alt: " ",
+    title: "Apala",
+    description: " music discovery",
   },
   {
     image: ux,
-    alt: ' ',
-    title: 'uxAnalytic',
-    description: 'SaaS ux analysis',
+    alt: " ",
+    title: "uxAnalytic",
+    description: "SaaS ux analysis",
   },
 ];

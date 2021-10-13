@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 import { CSSTransition } from 'react-transition-group';
 
 import Backdrop from './backdrop';
@@ -40,6 +41,7 @@ const ModalOverlay: React.FunctionComponent<ModalOverlayProps> = ({
 const Modal: React.FunctionComponent<ModalProps & ModalOverlayProps> = ({
   onCancel,
   show,
+
   children,
   header,
   onKeyPress,
@@ -52,7 +54,7 @@ const Modal: React.FunctionComponent<ModalProps & ModalOverlayProps> = ({
         mountOnEnter
         unmountOnExit
         timeout={200}
-        classNames="modal"
+        classNames='modal'
       >
         <ModalOverlay {...{ children }} {...{ header }} />
       </CSSTransition>

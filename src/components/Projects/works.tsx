@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
-import { ProjectItem } from './work-item';
-import { PROJECTS } from '../../mock/Projects';
-import Modal from '../../shared/UIelement/Modal';
-import { MODAL } from '../../mock/modalDes';
-import { Content } from '../description';
+import { ProjectItem } from "./work-item";
+import { PROJECTS } from "../../mock/Projects";
+import Modal from "../../shared/UIelement/Modal";
+import { MODAL } from "../../mock/modalDes";
+//import ReactModal from 'react-modal';
+import { Content } from "../description";
 
 export const Projects = () => {
   const [showModal, setshowModal] = useState(false);
@@ -20,11 +21,13 @@ export const Projects = () => {
   return (
     <section className="pb-6">
       <div className="">
-        <h1 className="text-titleMauve font-title text-3xl my-4">Work</h1>
+        <h1 className="text-titleMauve font-title text-3xl mb-10">Work</h1>
+
         <Modal
           show={showModal}
           onCancel={closeModalHandler}
           onKeyPress={closeModalHandler}
+          className={"relative"}
         >
           {modalIsOpen ? (
             <Content
@@ -38,7 +41,8 @@ export const Projects = () => {
             />
           ) : null}
         </Modal>
-        <div className="flex md:flex-row flex-col justify-between">
+
+        <div className="flex md:flex-row flex-col justify-between xl:w-p826 lg:mb-25">
           {PROJECTS.map((item) => {
             const { image, title, description, alt } = item;
             return (
